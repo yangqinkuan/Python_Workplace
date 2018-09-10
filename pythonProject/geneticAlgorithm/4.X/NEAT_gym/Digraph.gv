@@ -1,0 +1,17 @@
+digraph {
+	node [fontsize=9 height=0.2 shape=circle width=0.2]
+	In0 [fillcolor=lightgray shape=box style=filled]
+	In1 [fillcolor=lightgray shape=box style=filled]
+	In3 [fillcolor=lightgray shape=box style=filled]
+	In4 [fillcolor=lightgray shape=box style=filled]
+	act1 [fillcolor=lightblue style=filled]
+	act2 [fillcolor=lightblue style=filled]
+	In0 -> act1 [color=green penwidth=0.14385166018765666 style=solid]
+	In0 -> act2 [color=green penwidth=0.3207283838733231 style=solid]
+	In1 -> act1 [color=green penwidth=0.20494854111108668 style=solid]
+	In1 -> act2 [color=green penwidth=0.5603113028356476 style=solid]
+	In3 -> act1 [color=green penwidth=0.3731505665317769 style=dotted]
+	In3 -> act2 [color=green penwidth=0.5318037527646526 style=solid]
+	In4 -> act1 [color=green penwidth=0.2975604070503993 style=solid]
+	In4 -> act2 [color=green penwidth=0.6062758438506267 style=solid]
+}
